@@ -1,29 +1,14 @@
-
-
-n1 = int(input("write your fist num..."))
-n2 = int(input("write your second num..."))
-op = input("""chose from these operation:
-+
--
-*
-/
-""")
-
 def add(n1, n2):
     return n1 + n2
-
 
 def sub(n1, n2):
     return n1 - n2
 
-
 def mul(n1, n2):
     return n1 * n2
 
-
 def div(n1, n2):
     return n1 / n2
-
 
 operation = {
     "+": add,
@@ -32,16 +17,21 @@ operation = {
     "/": div
 }
 
+accumulate = True
 
-if op == "+":
-    print(operation["+"](n1, n2))
-elif op == "-":
-    print(operation["-"](n1, n2))
-elif op == "*":
-    print(operation["*"](n1, n2))
-elif op == "/":
-    print(operation["/"](n1, n2))
-else:
-    print("the input is invalid")
+while accumulate:
+    num1 = float(input("What is your first num?..."))
+    for symbol in operation:
+        print(symbol)
+    operation_symbol = input("pick an operation")
+    num2 = float(input("what is your second num?"))
+    answer = operation[operation_symbol](num1, num2)
+    print(f"{num1}{operation_symbol}{num2} = {answer}")
 
+    choice = input(f"Type 'y' if you want continue, otherwise typr 'n'.")
 
+    if choice == "y":
+        num1 = answer
+    else:
+        accumulate = False
+        print("Bye Bye")
