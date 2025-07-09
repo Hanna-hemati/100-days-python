@@ -31,15 +31,13 @@ for _ in range(2):
     user_cards.append(deal_card())
     computer_cards.append(deal_card())
 
+# user_score = calculate_score(user_cards)
+# computer_score = calculate_score(computer_cards)
 user_score = calculate_score(user_cards)
 computer_score = calculate_score(computer_cards)
-def massage():
-    print(f"your cards: {user_cards}, current score: {user_score}")
-    print(f"computer's first card: {computer_cards[0]}")
 
-
-massage()
-
+print(f"your cards: {user_cards}, current score: {user_score}")
+print(f"computer's first card: {computer_cards[0]}")
 
 while not is_game_over:
 
@@ -55,7 +53,8 @@ while not is_game_over:
         else:
             print("ERROR")
             is_game_over = True
-
+    user_score = calculate_score(user_cards)
+    computer_score = calculate_score(computer_cards)
     print(f"your cards: {user_cards}, current score: {user_score}")
     if user_score > computer_score:
         print(f"congrats you win. your score is {user_score} and computer score is {computer_score}")
@@ -63,5 +62,4 @@ while not is_game_over:
         print(f"aaa you loose.. your score is {user_score} and computer score {computer_score}")
     else:
         print(f"you and computer has a equal score. yours= {user_score} and computer score is {computer_score}")
-
 
