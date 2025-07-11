@@ -6,6 +6,7 @@ def main():
 
 
 def blackjack():
+    return "lalala"
 
 
 # Inja mikhaim ye kari konim

@@ -19,5 +19,5 @@ print(f"this is outside the jar{boom}")
 # Global Constant are normally declared in ALL CAPS with a _ in between
 
 PI = 3.14159
-GOOGLE_URL = "https://www.google.com"
+# GOOGLE_URL = "https://www.google.com"
 
