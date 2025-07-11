@@ -7,7 +7,8 @@ def main():
 
 def blackjack():
 
-#Inja mikhaim ye kari konim
+
+# Inja mikhaim ye kari konim
     
 
 if __name__ == "__main__":

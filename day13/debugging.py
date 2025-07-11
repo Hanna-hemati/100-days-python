@@ -3,5 +3,5 @@ def my_f():
         if i == 10:
             print("you got it")
 
-
+my_f()
 # this code dosen working becouse the for loop can't reach the 10. it's gonna end in 9
