@@ -5,7 +5,7 @@ def format_name(f_name, l_name):
     sfgsoo
     thbg"""
     if f_name == "" or l_name == "":
-        return "you did not provid  valid inputs"
+        return "you did not provide  valid inputs"
     else:
         formatted_f = f_name.title()
         formatted_l = l_name.title()

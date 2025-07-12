@@ -28,7 +28,7 @@ while accumulate:
     answer = operation[operation_symbol](num1, num2)
     print(f"{num1}{operation_symbol}{num2} = {answer}")
 
-    choice = input(f"Type 'y' if you want continue, otherwise typr 'n'.")
+    choice = input(f"Type 'y' if you want continue, otherwise type 'n'.")
 
     if choice == "y":
         num1 = answer
