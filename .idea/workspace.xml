@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a2473cb-790e-4066-81b0-17ae3c5c8d33" name="Changes" comment="" />
+    <list default="true" id="8a2473cb-790e-4066-81b0-17ae3c5c8d33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/coding-day20-to-day39/day20/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding-day20-to-day39/day20/score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day1-to-day19" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day1-to-day19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day1-to-day19/day11/Blacjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day1-to-day19/day11/Blacjack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day1-to-day19/day19/start-day19.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day1-to-day19/day19/start-day19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day1-to-day19/day19/turtle-race.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day1-to-day19/day19/turtle-race.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day20-to-40/day20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day20-to-40/day21/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day20-to-40/day21/paddle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day20-to-day39/day20" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day20-to-day39/day20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day20-to-day39/day20/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day20-to-day39/day20/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-day20-to-day39/day20/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding-day20-to-day39/day20/snake.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,18 +43,22 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ot21V4z1yds4uncl9ChEHbsoRt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hanna/Desktop/courses/python/coding&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/hanna/Desktop/courses/python/coding",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day18/010 hirst-painting-start" />
@@ -57,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coding-day20-to-day39" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-day20-to-day39/day21" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,5 +112,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

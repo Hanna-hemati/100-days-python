@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/coding-day1-to-day19" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/coding-day1-to-day19/day11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coding-day20-to-40/day20" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coding-day20-to-40/day20/https:/github.com/Hanna-hemati/100-days-python" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/coding-day20-to-day39/day20" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/coding-day20-to-day39/day20/https:/github.com/Hanna-hemati/100-days-python" vcs="Git" />
   </component>
