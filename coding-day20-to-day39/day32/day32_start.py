@@ -20,7 +20,6 @@ def send():
         choice = random.choice(options)
         connection.sendmail(from_addr=my_mail, to_addrs=to_mail, msg=choice)
 
-
 if date_of_week == 1:
     send()
 else:
